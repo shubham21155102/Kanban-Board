@@ -28,16 +28,16 @@ You can explore a live version of the app [here](https://quickselliitbhu-kanban-
 ## Screenshots
 
 - Grouping by `Status`, Sorting by `Priority`:
-  <img width="1440" alt="Grouped by Status, Sorted by Priority" src="https://github.com/subhh33/Kanban-Board/assets/ss1.png">
+  <img width="1440" alt="Grouped by Status, Sorted by Priority" src="https://github.com/subhh33/Kanban-Board/blob/main/src/assets/ss1.png">
 
 - Grouping by `Status`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by Status, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss2.png">
+  <img width="1440" alt="Grouped by Status, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/blob/main/src/assets/ss2.png">
 
 - Grouping by `User`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by User, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss3.png">
+  <img width="1440" alt="Grouped by User, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/blob/main/src/assets/ss3.png">
 
 - Grouping by `Priority`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by Priority, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss4.png">
+  <img width="1440" alt="Grouped by Priority, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/blob/main/src/assets/ss1.png">
 
 ## Core Features
 
