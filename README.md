@@ -93,5 +93,7 @@ To set up and run this project locally, follow these steps:
 ## Additional Notes
 
 - **/demo route**: 
-  I have added a `/demo` [Demo Route](https://quickselliitbhu-kanban-board.vercel.app/) route to showcase the main Kanban board without making an API call. This route uses a local `demo.json` file to simulate data because the provided API was not returning data for `Canceled` and `Done` events. The `/demo` route allows you to interact with the board as if real data were loaded, providing a seamless experience without dependency on the external API.
+  I have added a `/demo` [Demo Route](https://quickselliitbhu-kanban-board.vercel.app/demo) route to showcase the main Kanban board without making an API call. This route uses a local `demo.json` file to simulate data because the provided API was not returning data for `Canceled` and `Done` events. The `/demo` route allows you to interact with the board as if real data were loaded, providing a seamless experience without dependency on the external API.
 
+- **404 Error Handling**:
+  A custom `404 Not Found` page has been added for any unavailable routes. If users navigate to a route that does not exist, they will be directed to a friendly error page with a message and a link back to the homepage. This ensures better navigation and enhances the overall user experience when encountering invalid URLs.
