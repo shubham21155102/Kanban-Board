@@ -1,0 +1,51 @@
+/* Menu.module.css: Stylesheet for the menu component that contains display setting options. */
+
+.menu {
+    position: absolute; /* Positions the menu absolutely relative to its positioned ancestor. */
+    left: max(
+        2.5%,
+        36px
+    ); /* Horizontal position set to the greater of 2.5% of the viewport or 36px. */
+    top: max(
+        5.25%,
+        47.25px
+    ); /* Vertical position set to the greater of 5.25% of the viewport or 47.25px. */
+    display: flex; /* Sets a flex container for the child elements. */
+    flex-direction: column; /* Organizes child elements in a column. */
+    gap: 0.875vh; /* Vertical space between the child elements. */
+    border: 1px solid lightgray; /* Border around the menu. */
+    background: #f8f8fa; /* Background color of the menu. */
+    border-radius: 8.75px; /* Rounded corners of the menu. */
+    box-shadow: 0 0 8.75px 1.75px lightgray; /* Shadow for a 3D effect. */
+    width: max(
+        14.375%,
+        237.8px
+    ); /* Responsive width, larger of 14.375% of the viewport or 237.8px. */
+    padding: 0.875% 1%; /* Padding inside the menu. */
+    z-index: 1; /* Stack order of the menu, higher than its siblings. */
+}
+
+.menu div {
+    display: flex; /* Sets a flex container for the label and select elements. */
+    justify-content: space-between; /* Distributes space between the flex items. */
+    align-items: center; /* Centers items vertically within the flex container. */
+}
+
+.menu label {
+    color: gray; /* Color for the labels inside the menu. */
+}
+
+.menu select {
+    font-weight: inherit; /* Inherits the font weight from the parent. */
+    border-radius: 5px; /* Rounded corners for the select dropdown. */
+    background: #fefffe; /* Background color for the select dropdown. */
+    border: 1px solid lightgray; /* Border around the select dropdown. */
+    transition: background 0.3s ease; /* Smooth background color transition on hover. */
+    width: max(45%, 93.15px); /* Responsive width for the select dropdown. */
+    padding: 1.25% 1.5%; /* Padding inside the select dropdown. */
+    cursor: pointer; /* Cursor indicates the dropdown can be interacted with. */
+}
+
+.menu select:hover {
+    background: #e8e8e8; /* Background color change on hover for visual feedback. */
+}

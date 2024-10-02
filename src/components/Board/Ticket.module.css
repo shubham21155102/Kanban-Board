@@ -1,0 +1,59 @@
+/* Ticket.module.css: Stylesheet for individual ticket components. */
+
+.ticket {
+    border: 1px solid lightgray; /* Border around each ticket for definition. */
+    background: #fefffe; /* Light background for the ticket content. */
+    border-radius: 7.5px; /* Rounded corners for visual appeal. */
+    box-shadow: 0 0 7.5px 1.5px lightgray; /* Subtle shadow for depth. */
+    padding: 0 5%; /* Padding inside the ticket, mostly horizontal. */
+    display: flex; /* Enables flexible box layout. */
+    flex-direction: column; /* Stacks child elements vertically. */
+    justify-content: space-evenly; /* Distributes children evenly along the column. */
+    height: max(10vh, 92px); /* Responsive height, with a minimum value. */
+}
+
+.ticket__id-and-user {
+    display: flex; /* Flex container for the ticket ID and user info. */
+    justify-content: space-between; /* Spacing out the ID and user info. */
+    align-items: center; /* Vertically centering items within this container. */
+}
+
+.ticket__id {
+    color: gray; /* Sets the color of the ticket ID to gray for subtlety. */
+}
+
+.ticket__status-and-title {
+    display: flex; /* Flex container for the ticket status and title. */
+    gap: 1.75%; /* Space between status icon and title. */
+}
+
+.ticket__title {
+    overflow: hidden; /* Ensures the text doesn't overflow its container. */
+    display: -webkit-box; /* Legacy webkit styling for text clamping. */
+    -webkit-line-clamp: 2; /* Limits text to two lines. */
+    -webkit-box-orient: vertical; /* Sets the direction for the line clamp. */
+}
+
+.ticket__priority-and-tag {
+    display: flex; /* Flex container for the ticket priority and tags. */
+    gap: 2.25%; /* Space between priority icon and tags. */
+}
+
+.ticket__priority-and-tag > div {
+    border: 1px solid whitesmoke; /* Border for tag elements for distinction. */
+    padding: 1%; /* Padding within each tag element. */
+    border-radius: 5px; /* Rounded corners for each tag. */
+    align-items: center; /* Centers content within tags vertically. */
+}
+
+.ticket__tag {
+    color: gray; /* Color for the tag text. */
+    display: flex; /* Flex container for the tag and bullet icon. */
+    gap: 3%; /* Space between the bullet icon and tag text. */
+    white-space: nowrap; /* Keeps the tag text on a single line. */
+    font-size: smaller; /* Smaller font size for tag text to differentiate from other content. */
+}
+
+.ticket__bullet {
+    color: silver; /* Color for the bullet icon. */
+}

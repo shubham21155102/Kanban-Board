@@ -1,0 +1,6 @@
+/* Icon.module.css: Stylesheet for icon components. */
+
+.icon {
+    font-size: larger; /* Sets the font size of the icon to a larger preset size. */
+    height: 15.59px; /* Explicitly sets the height of the icon to ensure consistent sizing. */
+}

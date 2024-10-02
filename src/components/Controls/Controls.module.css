@@ -1,0 +1,39 @@
+/* Controls.module.css: Stylesheet for the control elements in the application. */
+
+.controls {
+    background: #fefffe; /* Light background color for the controls container. */
+    height: max(
+        6vh,
+        54px
+    ); /* Responsive height, larger of 6% viewport height or 54px. */
+    display: flex; /* Flexbox display to align child elements in a row. */
+    align-items: center; /* Centers child elements vertically within the container. */
+}
+
+.controls__icon {
+    color: dimgray; /* Color for the icons within the controls. */
+    font-size: large; /* Larger font size for icons for better visibility. */
+}
+
+.controls button {
+    margin-left: max(
+        2.5%,
+        36px
+    ); /* Responsive left margin, larger of 2.5% viewport width or 36px. */
+    box-shadow: 0 0 5px 1px lightgray; /* Subtle shadow around the button for depth. */
+    font-size: inherit; /* Button font size inherits from parent element. */
+    border-radius: 5px; /* Rounded corners for the button. */
+    border: 1px solid lightgray; /* Light gray border around the button. */
+    background: #fefffe; /* Background color for the button matches the controls container. */
+    display: flex; /* Flexbox display to align icon and text inside the button. */
+    font-weight: inherit; /* Button font weight inherits from parent. */
+    transition: background 0.3s ease; /* Smooth transition for background color on hover. */
+    align-items: center; /* Aligns button contents vertically. */
+    gap: 5%; /* Space between items inside the button relative to its size. */
+    padding: 0.125% 0.375%; /* Responsive padding inside the button. */
+    cursor: pointer; /* Changes the mouse cursor to indicate clickable items. */
+}
+
+.controls button:hover {
+    background: #e8e8e8; /* Changes button background on hover for a visual feedback. */
+}

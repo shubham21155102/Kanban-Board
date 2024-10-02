@@ -1,0 +1,37 @@
+/* User.module.css: Stylesheet for the user component, handling layout, user image, and availability status. */
+
+.user {
+    position: relative; /* Establishes a positioning context for absolutely positioned child elements. */
+}
+
+.user__image {
+    width: max(
+        2.125vh,
+        19.13px
+    ); /* Responsive width, higher of 2.125% of viewport height or 19.13px. */
+    border-radius: 50%; /* Makes the image circular. */
+}
+
+.user__availability {
+    position: absolute; /* Positions the availability indicator relative to the user's container. */
+    bottom: 0; /* Aligns the indicator to the bottom of the user container. */
+    right: -1.5px; /* Aligns the indicator to the right of the user container, with a slight overlap. */
+    border-radius: 50%; /* Makes the availability indicator circular. */
+    width: max(
+        0.75vh,
+        6.19px
+    ); /* Responsive width for the indicator, higher of 0.75% of viewport height or 6.19px. */
+    height: max(
+        0.75vh,
+        6.19px
+    ); /* Responsive height for the indicator, matching the width. */
+    border: 1px solid #fefffe; /* Adds a border to the indicator for better visibility. */
+}
+
+.user__availability--available {
+    background: #01b344; /* Green background indicates the user is available. */
+}
+
+.user__availability--unavailable {
+    background: #e8b700; /* Yellow background indicates the user is not available. */
+}
