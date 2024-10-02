@@ -91,9 +91,12 @@ To set up and run this project locally, follow these steps:
 6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app in action.
 
 ## Additional Notes
+- **IndexedDB for API Call Prevention**:
+  To optimize the app's performance and reduce unnecessary API calls, I implemented [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) for local data storage. This ensures that once the data is fetched from the API, it is cached and stored in the browser's local database. If the same data is requested again, it will be retrieved from the local database instead of making another network request, improving load times and reducing server load.
 
 - **/demo route**: 
   I have added a `/demo` [Demo Route](https://quickselliitbhu-kanban-board.vercel.app/demo) route to showcase the main Kanban board without making an API call. This route uses a local `demo.json` file to simulate data because the provided API was not returning data for `Canceled` and `Done` events. The `/demo` route allows you to interact with the board as if real data were loaded, providing a seamless experience without dependency on the external API.
 
 - **404 Error Handling**:
   A custom `404 Not Found`[Random Route](https://quickselliitbhu-kanban-board.vercel.app/xyzw) page has been added for any unavailable routes. If users navigate to a route that does not exist, they will be directed to a friendly error page with a message and a link back to the homepage. This ensures better navigation and enhances the overall user experience when encountering invalid URLs.
+
