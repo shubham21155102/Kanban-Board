@@ -64,12 +64,34 @@ To set up and run this project locally, follow these steps:
 
 1. Open a terminal or command prompt.
 
-2. Clone the repository: `git clone https://github.com/subhh33/Kanban-Board.git`
-  
-3. Navigate to the project directory: `cd Kanban-Board`
+2. Clone the repository: 
 
-4. Install the dependencies: `npm install`
+    ```bash
+    git clone https://github.com/subhh33/Kanban-Board.git
+    ```
 
-5. Run the development server: `npm start`
+3. Navigate to the project directory: 
 
-6. Open your browser and go to http://localhost:3000 to view the app in action.
+    ```bash
+    cd Kanban-Board
+    ```
+
+4. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+5. Run the development server:
+
+    ```bash
+    npm start
+    ```
+
+6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app in action.
+
+## Additional Notes
+
+- **/demo route**: 
+  I have added a `/demo` route to showcase the main Kanban board without making an API call. This route uses a local `demo.json` file to simulate data because the provided API was not returning data for `Canceled` and `Done` events. The `/demo` route allows you to interact with the board as if real data were loaded, providing a seamless experience without dependency on the external API.
+
