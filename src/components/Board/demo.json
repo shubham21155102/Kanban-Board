@@ -61,12 +61,12 @@
         "priority": 0
       },
       {
-        "id": "CAM-30",
-        "title": "Quality Test",
+        "id": "CAM-309",
+        "title": "UI Redesign",
         "tag": [
           "Feature Request"
         ],
-        "userId": "usr-5",
+        "userId": "usr-1",
         "status": "Canceled",
         "priority": 0
       },

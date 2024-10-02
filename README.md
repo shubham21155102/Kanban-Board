@@ -27,18 +27,17 @@ You can explore a live version of the app [here](https://quickselliitbhu-kanban-
 
 ## Screenshots
 
-### Demo View With Own JSON File For Better Understanding 
 - Grouping by `Status`, Sorting by `Priority`:
-  <img width="1440" alt="Grouped by Status, Sorted by Priority" src="https://github.com/subhh33/Kanban-Board/assets/87474759/93f16b40-e020-4cbc-909e-35ce4b7ffa3a">
+  <img width="1440" alt="Grouped by Status, Sorted by Priority" src="https://github.com/subhh33/Kanban-Board/assets/ss1.png">
 
 - Grouping by `Status`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by Status, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/87474759/9fbd7fca-a905-411a-a2aa-a25eae56bd1d">
+  <img width="1440" alt="Grouped by Status, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss2.png">
 
 - Grouping by `User`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by User, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/87474759/2b854477-0bb2-4816-a35d-f8ea56d0d0cb">
+  <img width="1440" alt="Grouped by User, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss3.png">
 
 - Grouping by `Priority`, Sorting by `Title`:
-  <img width="1440" alt="Grouped by Priority, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/87474759/8ca253eb-b19a-400f-b99a-c808d45d8cab">
+  <img width="1440" alt="Grouped by Priority, Sorted by Title" src="https://github.com/subhh33/Kanban-Board/assets/ss4.png">
 
 ## Core Features
 
