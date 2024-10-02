@@ -18,7 +18,7 @@ This web application interacts with the [API](https://api.quicksell.co/v1/intern
 
 ## Live Preview
 
-You can explore a live version of the app [here](https://quickselliitbhu-kanban-board.vercel.com/), hosted on Vercel.
+You can explore a live version of the app [here](https://quickselliitbhu-kanban-board.vercel.app/), hosted on Vercel.
 
 ## How to Use
 
