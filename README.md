@@ -27,6 +27,7 @@ You can explore a live version of the app [here](https://quickselliitbhu-kanban-
 
 ## Screenshots
 
+### Demo View With Own JSON File For Better Understanding 
 - Grouping by `Status`, Sorting by `Priority`:
   <img width="1440" alt="Grouped by Status, Sorted by Priority" src="https://github.com/subhh33/Kanban-Board/assets/87474759/93f16b40-e020-4cbc-909e-35ce4b7ffa3a">
 
